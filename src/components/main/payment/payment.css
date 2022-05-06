@@ -1,0 +1,56 @@
+.payment {
+	text-align: center;
+	font-family: Montserrat;
+	padding-top: 140px;
+	background-color: #f8f8f8;
+	margin-bottom: 82px;
+}
+.parent-payment .payment-upper {
+	font-weight: bold;
+	font-size: 31px;
+	line-height: 38px;
+	font-style: normal;
+	font-family: Montserrat;
+	margin-bottom: 11px;
+	color: #000;
+}
+
+.parent-payment .payment-bottom {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 78px;
+}
+
+.parent-payment .payment-logo {
+	height: 90px;
+}
+.parent-payment .payment-tel {
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 140px;
+}
+
+@media (max-width: 850px) {
+	.payment {
+		padding-top: 10px;
+	}
+	#payment-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.parent-payment .payment-logo {
+		height: 78px;
+		margin-top: 10px;
+	}
+	.parent-payment .payment-tel {
+		margin-bottom: 0;
+		width: 125px;
+	}
+	.parent-payment .payment-bottom {
+		margin-bottom: 0px;
+	}
+}

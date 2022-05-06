@@ -1,0 +1,19 @@
+.app {
+	background: url('../../../assets/img/bg-header.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* height: 100vh; */
+	height: 100vmin;
+	width: 100%;
+}
+.header-text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50px);
+}
+@media (max-width: 600px) {
+	.header-text {
+		top: 30%;
+	}
+}

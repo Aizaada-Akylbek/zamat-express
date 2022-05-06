@@ -1,0 +1,37 @@
+.footer {
+	background-color: #f8f8f8;
+	font-family: Montserrat;
+	color: black;
+}
+
+.parent .address {
+	margin-top: 40px;
+	font-size: 14px;
+}
+
+#logo-footer {
+	padding-top: 50px;
+}
+
+@media (max-width: 600px) {
+	#logo-footer {
+		display: none;
+	}
+	.bishkek {
+		margin-top: 40px;
+	}
+	.osh {
+		margin-top: 55px;
+	}
+	.footer {
+		align-items: center;
+	}
+	.parent .address {
+		margin-top: 20px;
+		font-size: 12px;
+	}
+	.social-span {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+}

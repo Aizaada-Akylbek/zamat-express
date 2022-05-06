@@ -1,0 +1,43 @@
+.shadow {
+	background: #ffffff;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.input-mobile {
+	display: none;
+}
+.button-mobile {
+	display: none;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+	.dinput {
+		display: none;
+	}
+
+	.input-mobile {
+		height: 40px;
+		border: none;
+		border: 1px solid #818181;
+		width: 100%;
+		display: block;
+		border-radius: 5px;
+		margin-bottom: 30px;
+		outline: none;
+	}
+	.input-mobile::placeholder {
+		padding-left: 10px;
+	}
+	.button-mobile {
+		height: 40px;
+		border: none;
+		border: 1px solid;
+		width: 100%;
+		background-color: #003399;
+		display: block;
+		color: #fff;
+		border-radius: 6px;
+	}
+}

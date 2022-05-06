@@ -1,0 +1,37 @@
+.app-bar {
+	background: #fff;
+	text-decoration: none;
+}
+.logo-click:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	.modal-mobile {
+		background-color: #f00;
+		width: 250px;
+	}
+	.app-bar {
+		line-height: 0px;
+		height: 65px;
+	}
+	.img-mobile {
+		position: absolute;
+		left: 30px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.img-mobile {
+		position: absolute;
+		left: 30px;
+	}
+}
+
+.nav-link {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: normal;
+	color: #181818 !important;
+}

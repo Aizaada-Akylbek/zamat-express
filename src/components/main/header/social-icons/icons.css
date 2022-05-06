@@ -1,0 +1,9 @@
+.social-icons {
+	position: absolute;
+	right: 130px;
+	top: 48%;
+}
+
+.MuiAvatar-square {
+	background-color: transparent;
+}

@@ -1,0 +1,48 @@
+.parents {
+	width: 550px;
+	position: relative;
+	height: 244px;
+	background: #ffff;
+	box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.child {
+	position: absolute;
+	top: 50%;
+	width: 400px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.child img:not(:nth-child(1)) {
+	margin-left: 25px;
+}
+
+.hr {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.right-elements {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.left-elements {
+	color: #18181880;
+	font-size: 16px;
+}
+.box1 {
+	display: flex;
+}
+@media (max-width: 600px) {
+	.parents {
+		width: 400px;
+		margin-left: 0px;
+	}
+	.box1 {
+		display: inline;
+	}
+	#contacts-grid {
+		width: 600px;
+	}
+}
